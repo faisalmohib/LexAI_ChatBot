@@ -1,0 +1,66 @@
+Description Of Legal Assistent 
+
+As a proud member of the Generative AI Team ALPHA,
+ I had the opportunity to work on an impactful project — LexAI: An AI-powered Legal Assistant. 
+This intelligent chatbot is designed to answer complex legal questions related to Pakistani laws
+by analyzing and retrieving information from legal documents such as the PPC, CrPC, Constitution, and more.
+
+
+Project Objective:
+
+To develop an intelligent legal assistant capable of answering legal queries 
+based on Pakistani law (e.g., PPC, CrPC, Contracts Act, Constitution etc) 
+using real legal documents.
+
+Technologies & Concepts Used
+
+
+Technologies Used:
+
+•	LLM Model: google/flan-t5-base (instruction-tuned, used via Hugging Face pipeline)
+•	Embedding Model: sentence-transformers/all-MiniLM-L6-v2
+•	Document Loader: PyPDFLoader
+•	Text Chunking: RecursiveCharacterTextSplitter
+•	Vector Database: ChromaDB
+•	Frameworks: LangChain, Transformers, Streamlit
+•	Environment: Developed in VS Code, model trained/tested on Google Colab, and then deployed locally
+
+
+Methods & Concepts Applied:
+
+•	Tokenization & Chunking
+•	Embedding generation
+•	Vector similarity search
+•	Prompt engineering
+•	RetrievalQA with Source Attribution
+•	Streamlit frontend integration
+
+
+NLP Concepts Applied:
+
+•	RAG (Retrieval-Augmented Generation)
+•	Chunking (RecursiveCharacterTextSplitter)
+•	Tokenization
+•	Vector Embeddings
+•	Prompt Engineering
+•	RetrievalQA Chain
+
+
+Data Source:
+
+•	Real legal documents in PDF (Trained on 11 pdfs)
+
+
+What I Learned:
+
+•	Practical implementation of RAG architecture
+•	Building LLM-powered assistants with real legal data
+•	Managing large documents in memory-efficient ways
+•	End-to-end app development from training to deployment
+
+
+Goal:
+ 
+Build a legal assistant that helps users — lawyers, students,
+or citizens — ask law-related questions and get 
+direct answers with citations from their uploaded laws.
